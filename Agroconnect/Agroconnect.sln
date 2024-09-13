@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agroconnect", "Agroconnect\Agroconnect.csproj", "{4B2F78C3-CFAB-4073-9398-D91A694A44F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agroconnect.Domain", "Agroconnect.Domain\Agroconnect.Domain.csproj", "{7C58E26D-AEFF-48F3-AB0F-9CA222B85209}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agroconnect.API", "Agroconnect.API\Agroconnect.API.csproj", "{0BE2C448-8D4A-47F3-B7E7-FE9E378F56AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agroconnect.Infra.Data", "Agroconnect.Infra.Data\Agroconnect.Infra.Data.csproj", "{66ACF3DE-AF26-44F7-BB45-522333C73A25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agroconnect.Infra.IOC", "Agroconnect.Infra.IOC\Agroconnect.Infra.IOC.csproj", "{E33E5DC1-CE00-4491-8428-49FC1A5255E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agroconnect.Domain.Test", "Agroconnect.Domain.Test\Agroconnect.Domain.Test.csproj", "{9A6EC80E-54B0-4B72-82B4-101F7392224F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B2F78C3-CFAB-4073-9398-D91A694A44F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B2F78C3-CFAB-4073-9398-D91A694A44F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B2F78C3-CFAB-4073-9398-D91A694A44F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B2F78C3-CFAB-4073-9398-D91A694A44F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C58E26D-AEFF-48F3-AB0F-9CA222B85209}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C58E26D-AEFF-48F3-AB0F-9CA222B85209}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C58E26D-AEFF-48F3-AB0F-9CA222B85209}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C58E26D-AEFF-48F3-AB0F-9CA222B85209}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BE2C448-8D4A-47F3-B7E7-FE9E378F56AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BE2C448-8D4A-47F3-B7E7-FE9E378F56AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BE2C448-8D4A-47F3-B7E7-FE9E378F56AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BE2C448-8D4A-47F3-B7E7-FE9E378F56AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66ACF3DE-AF26-44F7-BB45-522333C73A25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66ACF3DE-AF26-44F7-BB45-522333C73A25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66ACF3DE-AF26-44F7-BB45-522333C73A25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66ACF3DE-AF26-44F7-BB45-522333C73A25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E33E5DC1-CE00-4491-8428-49FC1A5255E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E33E5DC1-CE00-4491-8428-49FC1A5255E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E33E5DC1-CE00-4491-8428-49FC1A5255E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E33E5DC1-CE00-4491-8428-49FC1A5255E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A6EC80E-54B0-4B72-82B4-101F7392224F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A6EC80E-54B0-4B72-82B4-101F7392224F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A6EC80E-54B0-4B72-82B4-101F7392224F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A6EC80E-54B0-4B72-82B4-101F7392224F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E0BFD82-8C95-407A-B87F-260385ACB423}
+	EndGlobalSection
+EndGlobal

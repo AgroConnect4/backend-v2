@@ -1,0 +1,14 @@
+.vs/
+Agroconnect/**/obj/
+Agroconnect/**/bin/
+
+!azure-pipelines-1.yml
+
+*.log
+*.tmp
+
+*.user
+*.suo
+
+packages/
+node_modules/
