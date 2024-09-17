@@ -17,6 +17,7 @@ variables:
   solution: '**/*.sln'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release' 
+  nugetVersion: '6.11.0'  # Use uma versão específica do NuGet aqui
 
 jobs:
   - job: BuildTestProd
@@ -24,7 +25,7 @@ jobs:
     steps:
     - task: NuGetToolInstaller@1
       inputs:
-        versionSpec: 'latest'
+        versionSpec: '$(nugetVersion)'  # Use a variável para a versão
 
     - task: NuGetCommand@2
       inputs:
@@ -46,5 +47,4 @@ jobs:
       inputs:
         targetPath: '$(Build.ArtifactStagingDirectory)'
         artifactName: 'agroconnect'
-        publishLocation: 'container'
-
+        publishLocation: 'Container'
